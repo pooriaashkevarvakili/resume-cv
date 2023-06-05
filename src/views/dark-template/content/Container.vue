@@ -1,7 +1,7 @@
 <template>
   <v-card color="grey lighten-4" light>
     <v-card-text>
-      <content-section class="iran-sans" title="درباره من">
+      <content-section style="font-size:16px" class="iran-sans" title="درباره من">
         سه سال سابقه کار در برنامه نویسی وب،(nuxt,js-vue(end-front دارم. تا کنون با تیم های
         پنج تا پانزده نفر همکاری کرده ام. برای کسب مهارت های جدید اشتیاق دارم و برای
         پیشرفت خود تلاش میکنم
@@ -15,7 +15,7 @@
               <strong>{{ proud.text }}</strong><br>
               <strong>{{ proud.location }}</strong><br>
               <strong>{{ proud.time }}</strong><br>
-              <small>{{ proud.source }}</small><br>
+              <strong style="font-size:13px">{{ proud.source }}</strong><br>
               <a>{{ proud.link }}</a><br>
             </p>
           </v-flex>
@@ -44,21 +44,28 @@ export default {
       },
       {
         icon: 'Frontend developer vuejs nuxtjs',
-        text: 'رادار361',
-        location: 'ایران /اصفهان',
-        source: 'درشرکت رادار361که یک استارتاپ متمرکز بررزرو بلیت قطار،پرواز،اقامتگاه وتوراست،من به طراحی وتوسعه پنل مدیریت بخش مشتری (csr)وبسایت های تجارت الکترونیک  بارندرینگ سمت سرور (ssr) بااستفاده از بوت استرپ ویوجی اس ناکس جی اس پرداختم',
-        time: 'شش ماه',
-        link: 'https://radar361.com/'
+        text: 'فریلنسر',
+        location: 'ایران /تهران',
+        source: 'پنل ادمین و وبسایت رزومه توسعه دادم برای ارتباط بک اند با swagger,axios کار کردم.با vuex نیز کار می کردم.',
+        time: 'نه ماه',
+        link: 'https://tehrantc.com'
       },
       {
-        icon: 'mdi-timer-sand',
-        text: 'Saved +110 days of time of students, writers and etc!',
-        source: '(Delix.ir service usages)',
+        icon: 'Frontenddeveloper vuejs',
+        text: 'آواژنگ',
+        location: 'ایران/تهران',
+        time: 'هفت ماه',
+        link: 'https://avajang.com',
+        source: 'در این شرکت پنلهای مدیریت وب و یک وبسایت تجارت الکترونیکی توسعه دادم.برای ارتباط با بکاند از Swagger و Axios استفاده کردم و همچنین بسته های سفارشی مانند بارگذاری فایل بدون استفاده از اجزای رابط کاربریuicomponents را ایجاد کنم',
       },
       {
-        icon: 'mdi-account-multiple',
-        text: 'Tried to cover small part of 7 people expenses.',
-        source: '(My awesome colleagues)',
+        icon: 'Frontenddeveloper vue-js',
+        location: 'ایران/تهران',
+        time: 'چهارده ماه ',
+        link: 'https://hakupian.com',
+        text: 'هاکوپیان',
+
+        source: '-در این شرکت، بر روی نمودارهای سازمانی کار کردم و یک پنل داشبورد با استفاده از React طراحی کردم.-همچنین پنلهای مدیریت فرانتاند را توسعه دادم و در پروژهای مربوط به رزومه استخدامی، یک API جعلی با استفاده از Mockoon ایجاد کردم- .به مدت ۶ ماه با React و ۸ ماه vue کار کردم. شرکت Hakupian در زمینه صنعت پوشاک فعالیت میکند و تیم آن شامل حدود ۱۴ نفر از توسعه دهندگان بک اند و فرانت اند، DevOps، اسکرام مستر و مدیران محصول است.',
       },
     ],
     educations: [
