@@ -1,7 +1,7 @@
 <h1 align="center">
   <br>
-  <a target="_blank" href="https://evryn.github.io/vue-modern-resume/">
-    <img src="src/assets/logo.png" alt="Markdownify">
+  <a target="_blank" href="https://pooriavakili.ir">
+    <img src="src/assets/profilepooria.png" alt="Markdownify">
   </a>
   <br>
   Vue Modern Resume
@@ -10,8 +10,8 @@
 
 <h4 align="center">
   🚀 See yourself:
-  <a href="https://evryn.github.io/vue-modern-resume/">
-     Demo
+  <a href="https://pooriavakili.ir">
+     pooriavakili
   </a>
 </h4>
 
